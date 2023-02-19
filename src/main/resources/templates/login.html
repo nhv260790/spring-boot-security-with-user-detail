@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Index page</title>
+</head>
+<body>
+	<form th:action="@{/j_spring_security_check}" method="post">
+		<input name="username" placeholder="Username" /> <br /> <input
+			type="password" placeholder="Password" name="password" /> <br /> <br />
+		<button type="submit">Login</button>
+	</form>
+</body>
+</html>
